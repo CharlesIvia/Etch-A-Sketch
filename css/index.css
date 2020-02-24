@@ -22,17 +22,17 @@ h1 {
 button {
     display: block;
     position: absolute;
-    bottom: -50px;
     right: 0;
     height: 30px;
     width: 80px;
-    background: white;
-    border: 1px solid white;
+    background: rgb(226, 27, 27);
+    border: 1px solid rgb(185, 91, 91);
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.75em;
     cursor: pointer; 
-    color: rgb(109, 109, 109);
+    color: white;
+    top: -40px;
 }
 
 button:focus {
@@ -41,8 +41,10 @@ button:focus {
 }
 
 button:hover {
-    background-color: #f0f0f0;
-    border: 1px solid #f0f0f0;
+    background-color: rgb(223, 21, 21);
+    border: 1px solid #bb4343;
+    color: white;
+    font-size: 14px;
 }
 
 .sketchbox {
